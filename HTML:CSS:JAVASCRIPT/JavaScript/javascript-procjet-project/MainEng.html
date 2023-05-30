@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DionSki</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://www.xtreme.ge/styles/vendor/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="Menu.css">
+<link rel="stylesheet" href="search.css">
+<link rel="stylesheet" href="Footer.css">
+<link rel="stylesheet" href="Pslide.css">
+ </head>
+<body>
+    <script>
+    $('#topsearchform').bind("keypress", function(e){
+        if(e.keyCode==13) e.preventDefault();
+        if(e.keyCode==13) $('#topsearchform').click();
+    });
+    $('#searchit').click(function(){
+        if($('#searchtext').val()!=null && $('#searchtext').val()!=="" && $('#searchtext').val().length>2){
+            $('#topsearchform').submit();
+        }
+    });
+</script>
+<div style="display:none;"><img src="" alt=""></div>
+<div id="container">
+    <div id="contentwrapper">
+    <div id="header"></div>
+<div id="contentbody">
+    <div id="horisontal-advertline-1">
+        <div id="offer1">
+            <div class="item1">
+                <a  style="color:white;">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Address               </a>
+            </div>
+            <div class="lang">
+                <div class="ge"><a href="Main.html">GEO</a></div>
+                <div class="sep"></div>
+                <div class="en"><a href="MainEng.html">ENG</a></div>
+            </div>
+            <div class="service"><a href=>Service</a></div>
+            <div class="sepr"></div>
+            <div class="rent"><a href=>Rent</a></div>
+            <div class="sepr"></div>
+            <div class="rent"><a href="RegistrationEng.html">Registration</a></div>
+        </div>
+    </div>
+    <div id="topblockcontainer">
+        <div id="topblock">
+            <div id="logo"><a ><img src="2.png" alt="" width="470" height="120"></a></div>
+            <div id="searchbox">
+                <form id="topsearchform" action="">
+                    <input type="hidden" id="search" name="search" value="1">
+                    <input type="text" id="searchtext" name="searchtext" class="searchtext">
+                    <span id="searchit" class="glyphicon glyphicon-search searchbutton"></span>
+                </form>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div id="megamenublock">     
+<ul id="menu">
+	<li><a><strong>Ski</strong></a>
+		<div class="megemenu-li-glue"></div>
+		<div class="dropdown_1column">
+			<div class="triangledown-menu"></div>
+			<div class="menuadvert-left rotate-min-90 transform-origin">
+				<div class="item1" onclick="gotoPage()">
+					<div>SALE</div>
+				</div>
+				<div class="item2" onclick="gotoPage()">
+				    <div>New Collection</div>
+				</div>
+			    </div>
+			    <div class="col_1">				
+											<div><a  class="megamenu-item">Ski</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Holder</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Boots</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Sticks</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Googles</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Helmet</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Backpack</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski And Boot Bagpack</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Ski Protectores</a></div>
+									</div>
+			<div class="col_2">
+											<div style="margin-top:5px;"><a     class="megamenu-item">Mask</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Buff/Bandan</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Ski Socks</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Ski Gloves</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Winter Hats</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Ski Jackets</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Ski Bottom</a></div>
+												<div style="margin-top:5px;"><a class="megamenu-item">Ski Clothes</a></div>
+									</div>
+			<div class="col_3">
+											<div style="margin-top:5px;"><a  class="megamenu-item">Thermo Cloth</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Jackets</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Cloth Accessories</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Mount/Sun Googles</a></div>
+												<div style="margin-top:5px;"><a  class="megamenu-item">Watch And Accessories</a></div>
+									</div>
+		
+	</li>
+	<li><a href="Brands.html"><div class="sep"></div><strong>Brand</strong></a></li>
+                    <div id="middleblock">
+<div id="slideswrapper">
+    <div class="shadowtop"></div>
+    <div id="slides">
+        <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="" <="" li="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="1" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="2" <="" li="" class="active">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="3" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="4" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="5" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="6" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="7" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="8" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="9" <="" li="" class="">
+                                        </li><li data-target="#carousel-example-generic" data-slide-to="10" <="" li="" class="">
+                                </li></ol>
+            <div class="carousel-inner" role="listbox">
+                    <div class="item">
+                                                <a href="#">
+                                                <img src="1.jpg" alt="">
+                                                </a>
+                    </div>
+                    <div class="item">
+                                                <a>
+                                                <img data-src="3.jpeg" alt="" class=" lazyloaded" src=>
+                                                </a>
+                    </div>
+                    <div class="item active">
+                                                <a >
+                                                <img data-src="4.jpg" alt="" class=" lazyloaded" src="4.jpg">
+                                                 </a>
+                    </div>
+
+                    <div class="item">
+                                                <a>
+                                                <img data-src="5.dms" alt="" class=" lazyloaded" src="5.dms">
+                                                </a>
+                    </div>
+                    <div class="item">
+                                                <a>
+                                                <img data-src="6.jpeg" alt="" class=" lazyloaded" src="6.jpeg">
+                                                </a>
+                    </div>
+                    <div class="item">
+                                                <a>
+                                                <img data-src="7.jpg" alt="" class=" lazyloaded" src="7.jpg">
+                                                </a>
+                    </div>
+
+                
+                    <div class="item">
+                                                <a>
+                                                        <img data-src="8.jpg" alt="" class=" lazyloaded" src="8.jpg" >
+                                                    </a>
+                    </div>
+                    <div class="item">
+                                                <a>
+                                                <img data-src="9.jpeg" alt="" class=" lazyloaded" src="9.jpeg">
+                                                </a>
+                    </div>
+<div id="footerbar" style="background-color:#F2F2F2;">
+    <div style="background-color:transparent; display:inline-block; width:100%;">
+        <div style="margin-left:auto; margin-right:auto; width:100%;">
+                            <div style="float:left; margin-top:35px;">  
+    </div>
+        <div class="leftblock">
+            <div class="fb-title">FOLLOW US!</div>
+        </div>
+        <footer></footer>
+        <div class="middleblock">
+            </div>
+            <div class="copyright">Copyright 2021 © All rights reserved</div>
+
+

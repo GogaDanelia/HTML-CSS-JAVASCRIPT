@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Form Input Validation Using JavaScript</title>
+  <link rel="stylesheet" href="Registration.css">
+  <script src="Registration.js"></script>
+</head>
+<body>
+    <img src="2.png" alt="">
+  <h2>DionysusSki Registration</h2>
+  <div class="box"><div class="p2">
+  <form id="formTest" method="get" action="processData">
+    <table>
+    <tr>
+      <td><label for="txtName">Name:<span class="required"></span></label></td>
+      <td><input type="text" id="txtName" name="name"></td>
+      <td id="elmNameError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtAddress">Address:</label></td>
+      <td><input type="text" id="txtAddress" name="address"></td>
+      <td id="elmAddressError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtZipcode">Zip Code:<span class="required"></span></label></td>
+      <td><input type="text" id="txtZipcode" name="zipcode"></td>
+      <td id="elmZipcodeError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>Country:<span class="required"></span></td>
+      <td><select id="selCountry" name="country">
+            <option value="" selected>Please select...</option>
+            <option value="AA">Georgia</option>
+            <option value="BB">Usa</option>
+            <option value="CC">Germany</option>
+            <option value="DD">Austria</option>
+            <option value="EE">France</option>
+            <option value="FF">Spain</option>
+            <option value="GG">Italu</option>
+          </select></td>
+      <td id="elmCountryError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>Gender:<span class="required"></span></td>
+      <td><label><input type="radio" name="gender" value="m">Male</label>
+          <label><input type="radio" name="gender" value="f">Female</label></td>
+      <td id="elmGenderError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+    <tr>
+      <td><label for="txtPhone">Phone:<span class="required"></span></label></td>
+      <td><input type="text" id="txtPhone" name="phone"></td>
+      <td id="elmPhoneError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtEmail">Email:<span class="required"></span></label></td>
+      <td><input type="text" id="txtEmail" name="email"></td>
+      <td id="elmEmailError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPassword">Password: (6-8 characters)<span class="required"></span></label></td>
+      <td><input type="password" id="txtPassword" name="password"></td>
+      <td id="elmPasswordError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPWVerified">Verify Password:<span class="required"></span></label></td>
+      <td><input type="password" id="txtPWVerified" name="pwVerified"></td>
+      <td id="elmPWVerifiedError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" value="SEND" id="btnSubmit">&nbsp;
+          <input type="reset" value="CLEAR" id="btnReset"></td>
+      <td>&nbsp;</td></tr>
+    </table></div></div>
+  </form>
+</body>
+</html>

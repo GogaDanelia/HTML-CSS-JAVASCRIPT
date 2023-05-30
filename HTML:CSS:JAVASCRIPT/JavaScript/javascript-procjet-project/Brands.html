@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body  >
+<style>
+    body {
+    background-image: url("10.jpeg");
+      background-repeat: no-repeat;
+  }
+  h2{
+      color: white;
+      font-size: 50px;
+  }
+</style>
+<h2 class="w3-center">Brands</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="1-1.jpg" style="width:100%">
+  <img class="mySlides" src="1-2.jpg" style="width:100%">
+  <img class="mySlides" src="1-3.png" style="width:100%">
+  <img class="mySlides" src="1-4.jpg" style="width:100%">
+  <img class="mySlides" src="1-5.png" style="width:100%">
+  <img class="mySlides" src="1-6.jpg" style="width:100%">
+  <img class="mySlides" src="1-7.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); 
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+</body>
+</html>
+

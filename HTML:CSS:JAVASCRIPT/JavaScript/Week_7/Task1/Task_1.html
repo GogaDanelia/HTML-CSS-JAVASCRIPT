@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Script.js"></script>
+    <title>Document</title>
+    <style>
+        #wrapper{
+    border: dotted 1px gray;
+    width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+li{
+    margin: 50px;
+}
+
+#calendar{
+    width: 550px;
+    height: 550px;
+    box-shadow: rgb(51, 128, 51) 0px 0px 15px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+#fastDisplay{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fastDay, #fastMonth, #fastYear{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#fastDay, #fastMonth{
+    font-size: 50px;
+}
+#fastYear{
+    font-size: 13px;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+#fullMonth{
+    size: 200px;
+    height: 70%;
+    width: 500px;
+}
+table{
+    width: inherit;
+}
+th,td{
+    text-align: center;
+    width: 30px;
+    height: 50px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <ul>
+            <ul>
+                <div id="calendar">
+                    
+                    <div id="fastDisplay">
+                    
+                        <div id="fastDay">
+
+                        </div>
+                        <div id="fastMonth">
+
+                        </div>
+                        <div id="fastYear">
+                            <div id="year">
+
+                            </div>
+                            <div id="time">
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="fullMonth">
+                        <table id="innerCalendar">
+                        
+                        </table>
+
+                    </div>
+
+                </div>
+             
+    <script>
+        date = new Date()
+        setCalendar(date)
+    </script>
+</body>
+</html>

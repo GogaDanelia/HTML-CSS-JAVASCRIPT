@@ -1,0 +1,188 @@
+#horisontal-advertline-1{
+	width:100%;
+	background-color: #000000;
+	height:40px;
+	border-bottom:1px solid #ffffff;
+	text-align:center;
+}
+
+#horisontal-advertline-2{
+	width:100%;
+	background-color: #7F7F7F;
+	height:50px;
+	border-bottom:0 solid #ECECEC;
+}
+
+#offer1{
+	float:left;
+	margin:0;
+	width:100%;
+}
+
+#offer1 .item1{
+	float:left;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:normal;
+	margin:10px 0 0 10px;
+}
+
+#offer1 .item2{
+	float:left;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:7px 0 0 30px;
+}
+
+#offer1 .sepl{
+	float:left;
+	width:1px;
+	height:30px;
+	background-color: #ECECEC;
+	margin:0 0 0 10px;
+}
+
+#offer1 .sepr{
+	float:right;
+	width:1px;
+	height:20px;
+	background-color: #FFFFFF;
+	margin:10px 0 0 10px;
+}
+
+#offer1 .tel-icon{
+	float:right;
+	color:#ffffff;
+	width:30px;
+	height:20px;
+	font-size: 14px;
+	font-weight:bold;
+	margin:7px 0 0 30px;
+}
+
+
+#offer1 .tel{
+	float:right;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:7px 0 0 0px;
+}
+
+#offer1 .rent{
+	float:right;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:9px 0 0 0px;
+}
+
+#offer1 .service{
+	float:right;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:9px 170px 0 10px;
+}
+
+#offer1 .rent a,
+#offer1 .service a
+{
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+#offer1 .lang{
+	float:right;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:0 10px auto auto;
+	width:100px;
+}
+
+#offer1 .lang div{
+	font-family:Arial;
+	float:left;
+	margin-top:10px;
+}
+
+#offer1 .lang .ge{
+	float:left;
+}
+
+#offer1 .lang .ge a{
+	color:#FF0000;
+}
+
+#offer1 .lang .ge a:hover{
+	text-decoration:none;
+}
+
+#offer1 .lang .en{
+	float:left;
+}
+
+#offer1 .lang .en a{
+	color:#FFFFFF;
+}
+
+#offer1 .lang .en a:hover{
+	text-decoration:none;
+}
+
+#offer1 .lang .sep{
+	float:left;
+	width:1px;
+	height:20px;
+	background-color: #FFFFFF;
+	margin:10px 10px 0 10px;
+}
+
+#offer2{
+	clear:left;
+	margin:auto;
+	width:750px;
+	display:inline-block;
+	height:50px;
+}
+
+#offer2 .item1{
+	float:left;
+	color:#FFFF00;
+	font-size: 18px;
+	font-weight:bold;
+	margin:12px 0 0 0;
+}
+
+#offer2 .item2{
+	float:right;
+	color:#FFFF00;
+	font-size: 18px;
+	font-weight:bold;
+	margin:12px 0 0 0;
+}
+
+
+#sign-in{
+	float:right;
+	right:0;
+}
+
+#sign-in .sign{
+	float:right;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight:bold;
+	margin:7px 10px 0 0;
+}
+
+#sign-in .sepl{
+	float:left;
+	width:1px;
+	height:30px;
+	background-color: #ffffff;
+	margin:0 10px 0 0;
+}

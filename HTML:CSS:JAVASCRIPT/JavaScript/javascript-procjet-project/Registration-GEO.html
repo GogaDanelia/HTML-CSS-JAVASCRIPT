@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>რეგისტრაცია</title>
+  <link rel="stylesheet" href="Registration.css">
+  <script src="Registration.js"></script>
+</head>
+<body>
+    <img src="2.png" alt="">
+  <h2>DionysusSki რეგისტრაცია</h2>
+  <div class="box"><div class="p2">
+  <form id="formTest" method="get" action="processData">
+    <table>
+    <tr>
+      <td><label for="txtName">სახელი:<span class="required"></span></label></td>
+      <td><input type="text" id="txtName" name="name"></td>
+      <td id="elmNameError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtAddress">ადრესი:</label></td>
+      <td><input type="text" id="txtAddress" name="address"></td>
+      <td id="elmAddressError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtZipcode">ზიპ კოდი:<span class="required"></span></label></td>
+      <td><input type="text" id="txtZipcode" name="zipcode"></td>
+      <td id="elmZipcodeError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>ქვეყანა:<span class="required"></span></td>
+      <td><select id="selCountry" name="country">
+            <option value="" selected>გთხოვთ მონიშნოთ...</option>
+            <option value="AA">საქართველო</option>
+            <option value="BB">აშშ</option>
+            <option value="CC">გერმანია</option>
+            <option value="DD">ავსტრია</option>
+            <option value="EE">საფრანგეთი</option>
+            <option value="FF">ესპანეთი</option>
+            <option value="GG">იტალია</option>
+          </select></td>
+      <td id="elmCountryError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>სქესი:<span class="required"></span></td>
+      <td><label><input type="radio" name="gender" value="m">მამრობითი</label>
+          <label><input type="radio" name="gender" value="f">მდედრობითი</label></td>
+      <td id="elmGenderError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+    <tr>
+      <td><label for="txtPhone">ტელ:<span class="required"></span></label></td>
+      <td><input type="text" id="txtPhone" name="phone"></td>
+      <td id="elmPhoneError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtEmail">მაილი:<span class="required"></span></label></td>
+      <td><input type="text" id="txtEmail" name="email"></td>
+      <td id="elmEmailError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPassword">პაროლი: (6-8 ასო)<span class="required"></span></label></td>
+      <td><input type="password" id="txtPassword" name="password"></td>
+      <td id="elmPasswordError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPWVerified">გაიმეორეთ პაროლი:<span class="required"></span></label></td>
+      <td><input type="password" id="txtPWVerified" name="pwVerified"></td>
+      <td id="elmPWVerifiedError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" value="გაგზავნა" id="btnSubmit">&nbsp;
+          <input type="reset" value="წაშლა" id="btnReset"></td>
+      <td>&nbsp;</td></tr>
+    </table></div></div>
+  </form>
+</body>
+</html>

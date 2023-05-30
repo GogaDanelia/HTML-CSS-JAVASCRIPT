@@ -1,0 +1,202 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 100%;
+    font-family: Arial, Sylfaen;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+
+div, span, p, a {
+    font-family: Arial, Sylfaen;
+}
+
+input {
+    font-family: Arial, Sylfaen;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+br {
+    clear: both;
+}
+
+#container {
+    width: 1360px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: #F2F2F2;
+}
+#contentbody {
+    padding: 0 0 10px 0;
+    background-color: #f2f2f2;
+}
+
+#topblockcontainer {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 105px;
+    clear: both;
+    margin: 0;
+    display: block;
+}
+
+#topblockcontainer #topblock {
+    background-color: #FFFFFF;
+    display: block;
+    margin: 5px auto 5px auto;
+    height: 95px;
+    width: 100%;
+    text-align: center;
+}
+
+#topblockcontainer #topblock #logo {
+    padding: 10px;
+}
+
+#topblockcontainer #topblock .topblockbox {
+    float: left;
+    margin: 5px 0 0 10px;
+    width: 700px;
+}
+
+#megamenublock {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding-top: 3px;
+    text-align: center;
+    display: block;
+    height: 30px;
+}
+
+#searchbox {
+    position: absolute;
+    border: 1px solid #CCCCCC;
+    width: 270px;
+    height: 29px;
+    right: 100px;
+    top: 80px;
+}
+
+#searchbox .searchtext {
+    width: 238px;
+    border: 0;
+    margin: 2px 0 0 0;
+    height: 25px;
+    float: left;
+    background-color: #FFFFFF;
+    padding: 0 10px 0 10px;
+}
+
+#searchbox .searchbutton {
+    margin: 9px 0 0 12px;
+    float: left;
+    cursor: pointer;
+}
+
+#contentwrapper {
+    text-align: left;
+}
+
+#contentwrapper #leftblock {
+    float: left;
+    width: 250px;
+    margin: 10px 0 0 0;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-left: 3px;
+    background-color: #FFFFFF;
+}
+
+#contentwrapper #middleblock {
+    float: left;
+    margin: 10px 0 0 20px;
+    width: 1090px;
+    background-color: #FFFFFF;
+}
+
+#contentwrapper #rightblock {
+    float: right;
+    width: 200px;
+    margin: 0;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.hline1 {
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 2px;
+    margin: 0;
+}
+
+.no-photo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.socialbar-vertical {
+    position: fixed;
+    display: inline-block;
+    top: 450px;
+    background-color: transparent;
+    z-index: 1000003;
+}
+
+.viewcontent {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    min-height: 500px;
+}
+
+.viewcontent iframe{
+    margin-left: 9px;
+}
+
+#menu {
+    width: 1370px;
+}
+
+.red{
+    color:red;
+}
+
+
+.footer-brands{
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+
+    
+}
