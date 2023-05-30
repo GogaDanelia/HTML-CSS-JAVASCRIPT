@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+}
+html *
+{
+   font-family: Arial !important;
+}
+
+.logo {
+    margin-left:20px;
+    font-size:20px;
+}
+
+.box {
+    position: absolute;
+    border: 1px solid grey;
+    width: 500px;
+    height: 730px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+ p {
+    margin-left: 35px;
+ }
+
+ span{
+    font-weight: 100;
+    font-size: 30px;
+    margin-left: 30px;
+ }
+ .font{
+    font-size: 15px;
+ }
+
+.welcome {
+    font-size: 30px;
+    padding-left: 35px;
+    padding-bottom: -20px;
+    margin: 20px 0px 8px 0px;
+}
+
+.signup {
+    font-size: 35px;
+    padding-left: 35px;
+    margin: 10px 0px 5px 0px;
+}
+
+form {
+    padding: 25px 0px 0px 35px;
+    font-size: 20px;
+
+}
+
+#email {
+    width: 430px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 0px;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+    
+}
+
+#username {
+    width: 430px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+}
+
+.pass {
+    width: 430px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+    pointer-events:initial;
+}
+
+.confirm {
+    width: 430px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 430px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.register {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+img{
+    margin-left: 800px;
+    margin-top: -600px;
+    width: 500px;
+    height: 500px;
+}
+
+form i {
+    margin-left: -38px;
+    cursor: pointer;
+    color: black;
+    font-size: 18px
+}

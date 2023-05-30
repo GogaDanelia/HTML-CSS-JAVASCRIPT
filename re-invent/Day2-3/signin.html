@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style2.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h3 class="logo">Your Logo</h3>
+    <div class="box">
+      <h1> <span >Welcome !</span></h1> 
+        <h3 class="signup">Sign up to</h3>
+        <p>Lorem Ipsum is simply</p>
+        <form>
+            <div>
+         
+            <div class="font" >
+                <label for="username" class="user">User name</label> <br>
+                <input type="text" id="username" placeholder="Enter your user name"> 
+            </div><br>
+           
+            <div class="font">
+                <label for="confirm"> password</label> <br>
+                <input type="password" id="password2" class="pass" placeholder="Enter your Password">
+                <i class="bi bi-eye-slash-fill" id="togglePassword"></i>
+            </div><br></div>
+                <input type="checkbox"> <div class="check">Remember Me <div class="fr"> Forgot Password</div></div> 
+            <br><br>
+            <div class="submit">
+                <button type="submit" class="btn">Login</button>
+            </div>
+           
+            <div>
+                <div class="register" style="color:#d9d9d9">Don't have an Account? <a href="register.html">Register</p></a> 
+            </div>
+        </form>
+    </div>
+    <img src="1.jpg" alt="boy and girl">
+    <script>
+         const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#password");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+
+        // prevent form submit
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        });
+        var inputV = document.getElementById("textValue").value;
+function save() {
+document.getElementById("getText").innerHTML = inputV;
+}
+    </script>
+</body>
+</html> 
